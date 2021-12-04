@@ -1,2 +1,2 @@
 *.exe
-*.gitignore
+.gitignore
