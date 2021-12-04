@@ -1,4 +1,4 @@
-
+#include<stdio.h>
 int main(void){
     int n,a[20],i,sum=0,mid,j;
     float mean,median,mode;
@@ -7,7 +7,7 @@ int main(void){
     for(i=0;i<n;i++){
         scanf("%d",&a[i]);
     }
-    for(i=0;i<n;i++){
+    for(i=0;i<n;i++){1
         sum+=a[i];
     }
     for(i=0;i<n;i++){
