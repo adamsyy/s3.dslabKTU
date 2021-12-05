@@ -21,6 +21,7 @@ void main(){
        printf("enter %dth non zero element in the format row,col,value",i);
     scanf("%d%d%d",&a[i].row,&a[i].col,&a[i].value);
   }
+printf("sparsity is %f",(float)a[0].value/(a[0].row*a[0].col));
 
 }
 
