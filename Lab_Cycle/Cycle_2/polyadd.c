@@ -4,43 +4,42 @@
 void inputPoly(int, int[2][100]);
 void printPoly(int, int[2][100]);
 
-// ====== FUNCTION TO ADD 2 POLYNOMIALS ====== //
-// Polynomial is a 2d array, first row contains powers, second row contains coefficients
+
 void polyAdd(int poly1[2][100], int poly2[2][100], int size1, int size2)
 {
     int sum[2][100], size3;
     int i = 0, j = 0, k = 0;
     while (i < size1 && j < size2)
     {
-        if (poly1[0][i] == poly2[0][j]) // If powers are same
+        if (poly1[0][i] == poly2[0][j]) 
         {
             sum[0][k] = poly1[0][i];
-            sum[1][k] = poly1[1][i] + poly2[1][j]; // Then coefficients are added
+            sum[1][k] = poly1[1][i] + poly2[1][j]; 
             i++;
             j++;
         }
-        else if (poly1[0][i] > poly2[0][j]) // If power of first > second
+        else if (poly1[0][i] > poly2[0][j])
         {
             sum[0][k] = poly1[0][i];
-            sum[1][k] = poly1[1][i]; // Then it is copied
+            sum[1][k] = poly1[1][i]; 
             i++;
         }
         else
         {
             sum[0][k] = poly2[0][j];
-            sum[1][k] = poly2[1][j]; // else, second one is copied. This is to maintian the descending order of powers in sum
+            sum[1][k] = poly2[1][j]; 
             j++;
         }
         k++;
     }
-    while (i < size1) // Copy remaining elements in first polynomial, if any
+    while (i < size1) 
     {
         sum[0][k] = poly1[0][i];
         sum[1][k] = poly1[1][i];
         i++;
         k++;
     }
-    while (j < size2) // Copy remaining elements in second polynomial, if any
+    while (j < size2) 
     {
         sum[0][k] = poly2[0][j];
         sum[1][k] = poly2[1][j];
@@ -53,7 +52,7 @@ void polyAdd(int poly1[2][100], int poly2[2][100], int size1, int size2)
     printPoly(size3, sum);
 }
 
-// Main function
+
 int main()
 {
 
@@ -83,7 +82,7 @@ int main()
     polyAdd(poly1, poly2, size1, size2);
 }
 
-// Function to input a polynomial
+
 void inputPoly(int size, int poly[2][100])
 {
     printf("\nEnter the coeffiecent and power of polynomial, in descending order of power");
@@ -95,7 +94,7 @@ void inputPoly(int size, int poly[2][100])
     }
 }
 
-// Function to print polynomial
+
 void printPoly(int size, int poly[2][100])
 {
     for (int i = 0; i < size; i++)
