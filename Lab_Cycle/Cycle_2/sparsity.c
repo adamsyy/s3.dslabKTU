@@ -1,29 +1,52 @@
 #include<stdio.h>
-typedef struct{
+struct matrix{
     int row;
-    int col;
+    int column;
     int value;
-}term;
- 
-
-
-
-void main(){
-   int size;
-     printf("enter no of non zero elements");
-     scanf("%d",&size);
-     term a[size];
-     a[0].value=size;
-  printf("enter number of row and col");
-  scanf("%d%d",&a[0].row,&a[0].col);
+};
+int main(){
+    int n,i,j,m,a[20][20];
+    struct matrix k[300];
+    printf("Enter the matrix:\n ");
+    printf("Enter the number of rows: \n");
+    scanf("%d",&n);
+    printf("Enter the number of columns:\n");
+    scanf("%d",&m);
+    for(i=0;i<n;i++){
+        for(j=0;j<m;j++){
+            printf("Enter the element: ");
+            scanf("%d",&a[i][j]);
+        }
+    }
+    k[0].row=n;
+    k[0].column=m;
+    int c=1;
+    int ctr=0;
+    for(i=0;i<n;i++){
+        for(j=0;j<m;j++){
+            if(a[i][j]!=0){
+                k[c].row=i;
+                k[c].column=j;
+                k[c].value=a[i][j];
+                c++;
+                ctr++;
+            }
+        }
+    }
+    int numofzero=0;
+    for(i=0;i<n;i++){
+        for(j-0;j<m;j++){
+            if(a[i][j]==0){
+                numofzero++;
+            }
+        }
+    }
+    k[0].value=ctr;
+    printf("The new storage mechanism: \n");
+    for(i=0;i<=ctr;i++){
+        printf("Row: %d        Column: %d     Value: %d    \n",k[i].row,k[i].column,k[i].value);
+    }
    
-  for(int i=1;i<=a[0].value;i++){
-       printf("enter %dth non zero element in the format row,col,value",i);
-    scanf("%d%d%d",&a[i].row,&a[i].col,&a[i].value);
-  }
-printf("sparsity is %f",(float)a[0].value/(a[0].row*a[0].col));
-
+    
+    
 }
-
-
-
