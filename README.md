@@ -13,4 +13,3 @@ KTU 2019 Sylabus
 #### 7) Graphs  
 
 <hr/>
-hlo
