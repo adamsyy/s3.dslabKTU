@@ -10,7 +10,6 @@ struct node
 };
 struct node *first = NULL;
 
-
 struct node *createNode(int data)
 {
     struct node *newNode = (struct node *)malloc((sizeof(struct node)));
@@ -42,7 +41,6 @@ void addElemEnd(int data)
     }
 }
 
-
 void display()
 {
     if (first == NULL)
@@ -68,15 +66,18 @@ void delete ()
     }
 
     else
-    {int smallest=first->data;
-    struct node *dlttemp = first;
-    while(dlttemp!=NULL){
-        if(smallest>dlttemp->data){
-            smallest=dlttemp->data;
+    {
+        int smallest = first->data;
+        struct node *dlttemp = first;
+        while (dlttemp != NULL)
+        {
+            if (smallest > dlttemp->data)
+            {
+                smallest = dlttemp->data;
+            }
         }
-    }
-    
-     struct node *temp = first, *del = NULL;
+
+        struct node *temp = first, *del = NULL;
         if (first->data == smallest)
         {
             del = first;
@@ -84,7 +85,8 @@ void delete ()
             free(del);
             printf("\nElement Deleted! \n");
         }
-        else{
+        else
+        {
             while (temp != NULL)
             {
                 if (temp->next != NULL && temp->next->data == smallest)
@@ -98,12 +100,11 @@ void delete ()
                 temp = temp->next;
             }
         }
-        }
-    
+    }
 }
 int main()
-{   //2 4 6 99 8
-  
+{ //2 4 6 99 8
+
     int choice;
     do
     {
@@ -119,19 +120,20 @@ int main()
         case 1:
             printf("Enter value: ");
             scanf("%d", &data);
-          
+
             addElemEnd(data);
             break;
         case 2:
             display();
             break;
-        case 3:{
-           
-             delete();
+        case 3:
+        {
+
+            delete ();
             //1 2 3 4 (2)
             break;
         }
-           
+
         case 4:
         {
             break;
