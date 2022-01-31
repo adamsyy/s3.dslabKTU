@@ -21,7 +21,7 @@ struct node* createNode(int data)
     return(newNode);
 }
 
-void addElemEnd(int data)
+void addElem(int data)
 {
     struct node *newNode = createNode(data);
 
@@ -76,7 +76,7 @@ int main()
             case 1:
                 printf("Enter value: ");
                 scanf("%d",&data);
-                addElemEnd(data);
+                addElem(data);
                 break;
             case 2:
                 display();
