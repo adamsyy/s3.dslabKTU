@@ -103,7 +103,7 @@ void addafterele(int data)
     scanf("%d", &newdata);
     struct node *newNode = createNode(newdata);
     //incase the head itself is the required node
-    if (temp->data == newdata)
+    if (temp->data == data)
     {
         first->next = newNode;
     }

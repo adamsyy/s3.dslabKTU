@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-//new function addafterele has been added to implement the functionalty of adding elements after the required node specified by tyhe user
+//new function addbeforeele has been added to implement the functionalty of adding elements before the required node specified by the user
 
 struct node
 {
@@ -103,19 +103,19 @@ void addbeforeele(int data)
     scanf("%d", &newdata);
     struct node *newNode = createNode(newdata);
     //incase the head itself is the required node
-    if (temp->data == newdata)
+    if (temp->data == data)
     {
         newNode->next=temp;
-        first=newdata;
+        first=newNode;
     }
     else    
-    {
-        while (temp->data != data)
+    {//1 2 3 (6)4 5
+        while (temp->next!=NULL&&temp->next->data != data)
         {
             temp = temp->next;
         }
-        newNode->next = temp->next; //to prevent losing of tail after newnode
-        temp->next = newNode;
+        newNode->next = temp->next; //attaching newnode to rest of the chain
+        temp->next=newNode;
     }
 }
 
@@ -129,7 +129,7 @@ int main()
         printf("1: Add elements\n");
         printf("2: Display Elements\n");
         printf("3: Delete Element\n");
-        printf("4: Insert after a node\n");
+        printf("4: before after a node\n");
         printf("5: Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
