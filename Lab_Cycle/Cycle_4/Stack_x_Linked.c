@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<stdlib.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 struct node
 {
@@ -11,7 +11,7 @@ struct node *head = NULL;
 
 void push(int val)
 {
-   
+
     struct node *newNode = malloc(sizeof(struct node));
     newNode->data = val;
 
@@ -24,9 +24,9 @@ void push(int val)
 
 void pop()
 {
-    struct node *temp=head;
+    struct node *temp = head;
 
-    if(head == NULL)
+    if (head == NULL)
         printf("Stack is Empty\n");
     else
     {
@@ -34,8 +34,6 @@ void pop()
 
         //make the head node points to the next node after printing it
         head = head->next;
-
-      
     }
 }
 
@@ -43,11 +41,10 @@ void printList()
 {
     struct node *temp = head;
 
-
-    while(temp != NULL)
+    while (temp != NULL)
     {
-         printf("%d->", temp->data);
-         temp = temp->next;
+        printf("%d->", temp->data);
+        temp = temp->next;
     }
     printf("NULL\n");
 }
@@ -55,37 +52,38 @@ void printList()
 int main()
 {
     int choice;
- do{int data;
+    do
+    {
+        int data;
 
-printf("1: Add elements\n");
+        printf("1: Add elements\n");
         printf("2: pop Elements\n");
         printf("3: display Element\n");
         printf("4: Exit\n");
         printf("Enter your choice: ");
-        scanf("%d",&choice);
+        scanf("%d", &choice);
         switch (choice)
         {
         case 1:
             printf("enter element to insert");
-            
-            scanf("%d",data);
+
+            scanf("%d", data);
             push(data);
             break;
-        
+
         case 2:
             pop();
             break;
-        
+
         case 3:
             printList();
             break;
         case 4:
-        break;
+            break;
 
-        
         default:
             break;
         }
-    }while(choice!=4);
+    } while (choice != 4);
     return 0;
 }
