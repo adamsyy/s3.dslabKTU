@@ -14,6 +14,7 @@ KTU 2019 Sylabus
 #### 8) Sorting Techniques  
 
 <hr/>
+
 ## 1) Basic programs
 * [Sum of Digits](/Lab_Cycle/Cycle_1/Sumofdigits.java)
 * [Frequency of a character in a string](/Lab_Cycle/Cycle_1/LargestOfN.java)
