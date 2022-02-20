@@ -1,6 +1,7 @@
 # Data Structures Lab
 KTU 2019 Sylabus
-  
+  ![photo_2022-02-21_02-59-34](https://user-images.githubusercontent.com/75473780/154865060-db5e5098-6ab3-4301-85d9-e43d7655a258.jpg)
+
 
 # Table of contents
 
