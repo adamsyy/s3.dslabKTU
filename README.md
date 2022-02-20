@@ -1,6 +1,6 @@
 # Data Structures Lab
 KTU 2019 Sylabus
-![400](https://user-images.githubusercontent.com/75473780/154865124-93a34ed7-6896-4fbe-8fbd-5551d3386b9f.jpg)
+![700](https://user-images.githubusercontent.com/75473780/154865163-ebbf79ca-aa2b-44af-8827-58ac1d831e43.jpg)
 
 
 
