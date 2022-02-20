@@ -94,6 +94,19 @@ KTU 2019 Sylabus
 
  </br>
 
+ ## 8) Searching techniques
+* [binary search](/Lab_Cycle/Cycle_8/Binarysearch.c)
+* [bubble sort](/Lab_Cycle/Cycle_8/Bubblesort.c)
+* [exchange sort](/Lab_Cycle/Cycle_8/Exchangesort.c)
+* [heap sort](/Lab_Cycle/Cycle_8/Heapsort.c)
+* [insertion sort](/Lab_Cycle/Cycle_8/Insertionsort.c)
+* [linear search](/Lab_Cycle/Cycle_8/Linearsearch.c)
+* [merge sort](/Lab_Cycle/Cycle_8/Mergesort.c)
+* [quick sort](/Lab_Cycle/Cycle_8/Quicksort.c)
+* [selection sort](/Lab_Cycle/Cycle_8/Selectionsort.c)
+
+ </br>
+
 ![700](https://user-images.githubusercontent.com/75473780/154865163-ebbf79ca-aa2b-44af-8827-58ac1d831e43.jpg)
 
 
