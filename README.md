@@ -22,7 +22,16 @@ KTU 2019 Sylabus
 * [Mean median mode](/Lab_Cycle/Cycle_1/mmm.c)
 
  </br>
- 
+
+## 1) sparse matrix 
+* [poly add](/Lab_Cycle/Cycle_2/polyadd.c)
+* [evalaute polynomial](/Lab_Cycle/Cycle_2/evaluate.c)
+* [sparse matrix representation](/Lab_Cycle/Cycle_2/sparsity.c)
+* [Sparsity sum](/Lab_Cycle/Cycle_2/sparsesum.c)
+* [Transporse matrix](/Lab_Cycle/Cycle_2/transporse_sparse.c)
+
+ </br>
+
 ![700](https://user-images.githubusercontent.com/75473780/154865163-ebbf79ca-aa2b-44af-8827-58ac1d831e43.jpg)
 
 
