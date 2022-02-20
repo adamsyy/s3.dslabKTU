@@ -46,6 +46,34 @@ KTU 2019 Sylabus
 
  </br>
 
+  ## 4) linked list
+* [implement linked list](/Lab_Cycle/Cycle_4/linkedlist.c)
+* [stack using linked list](/Lab_Cycle/Cycle_4/Stack_x_Linked.c)
+* [delete node, data is given](/Lab_Cycle/Cycle_4/deleteNode_dataGiven.c)
+* [insert at the given position](/Lab_Cycle/Cycle_4/insert_at_position.c)
+* [insert before a node](/Lab_Cycle/Cycle_4/insert_before_node.c)
+* [insert after a node](/Lab_Cycle/Cycle_4/insertnodeafter.c)
+* [reverse a linked list](/Lab_Cycle/Cycle_4/reverse_list.c)
+* [search in a linked list](/Lab_Cycle/Cycle_4/search.c)
+* [smallest element in a linked list](/Lab_Cycle/Cycle_4/smallestele.c)
+* [sorted linked list](/Lab_Cycle/Cycle_4/sortedlist.c)
+
+ </br>
+ 
+   ## 4) linked list
+* [implement linked list](/Lab_Cycle/Cycle_4/linkedlist.c)
+* [stack using linked list](/Lab_Cycle/Cycle_4/Stack_x_Linked.c)
+* [delete node, data is given](/Lab_Cycle/Cycle_4/deleteNode_dataGiven.c)
+* [insert at the given position](/Lab_Cycle/Cycle_4/insert_at_position.c)
+* [insert before a node](/Lab_Cycle/Cycle_4/insert_before_node.c)
+* [insert after a node](/Lab_Cycle/Cycle_4/insertnodeafter.c)
+* [reverse a linked list](/Lab_Cycle/Cycle_4/reverse_list.c)
+* [search in a linked list](/Lab_Cycle/Cycle_4/search.c)
+* [smallest element in a linked list](/Lab_Cycle/Cycle_4/smallestele.c)
+* [sorted linked list](/Lab_Cycle/Cycle_4/sortedlist.c)
+
+ </br>
+
 ![700](https://user-images.githubusercontent.com/75473780/154865163-ebbf79ca-aa2b-44af-8827-58ac1d831e43.jpg)
 
 
