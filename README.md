@@ -28,5 +28,6 @@ KTU 2019 Sylabus
 * [Quick sort](Lab_Cycle/Cycle_6/Quicksort.java)
 * [Doubly Linked List](Lab_Cycle/Cycle_6/Dll.java)
 * [Binary Search](Lab_Cycle/Cycle_6/Binarysearch.java)
+* </br>
 ![700](https://user-images.githubusercontent.com/75473780/154865163-ebbf79ca-aa2b-44af-8827-58ac1d831e43.jpg)
 
