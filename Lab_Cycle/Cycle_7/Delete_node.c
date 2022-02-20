@@ -1,13 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
-
+ 
 /* Structure of the node */
 struct node
 {
 int data;
 struct node *left, *right;
 }*root;
-
+ 
 // Function to create a new node
 struct node *newNode(int item)
 {
@@ -16,7 +16,7 @@ temp->data = item;
 temp->left = temp->right = NULL;
 return temp;
 }
-
+ 
 /* Function to find the minimum value node */
 struct node * minValueNode(struct node* node)
 {
@@ -26,7 +26,7 @@ while (current->left != NULL)
 current = current->left;
 return current;
 }
-
+ 
 /* Function to delete the given node */
 struct node* delete_node(struct node* root, int data)
 {
@@ -62,7 +62,7 @@ root->right = delete_node(root->right, temp->data);
 }
 return root;
 }
-
+ 
 // Function to do inorder traversal of BST
 void inorder(struct node *root)
 {
@@ -73,7 +73,7 @@ printf("%d ", root->data);
 inorder(root->right);
 }
 }
-
+ 
 /* Function to insert a new node with given key in BST */
 struct node* insert(struct node* node, int data)
 {
@@ -87,7 +87,7 @@ else if (data > node->data)
 node->right = insert(node->right, data);
 return node;
 }
-
+ 
 // Main Function
 int main()
 {
@@ -120,3 +120,4 @@ inorder(root);
 printf("\n");
 return 0;
 }
+
