@@ -107,6 +107,7 @@ KTU 2019 Sylabus
 
  </br>
 
-![700](https://user-images.githubusercontent.com/75473780/154865163-ebbf79ca-aa2b-44af-8827-58ac1d831e43.jpg)
+![PXL_20231024_174847587 MP](https://github.com/adamsyy/s3.dslab/assets/75473780/d2168784-da58-4fbb-8cc3-4ff8d329b5f0)
+
 
 
